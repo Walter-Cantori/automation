@@ -1,0 +1,9 @@
+source 'http://rubygems.org'
+
+gem 'activerecord'
+gem 'sqlite3'
+gem 'capybara'
+gem 'cucumber'
+gem 'rubyXL'
+gem 'selenium-webdriver'
+gem 'rspec'

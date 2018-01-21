@@ -1,0 +1,3 @@
+default: --no-source --color --format pretty --format html --out results.html
+beta1: --no-source --tags @yml --color --format pretty --format html --out results.html DATA_YML_FILE=beta1.yml
+chrome: --no-source --tags @yml --color --format pretty --format html --out results.html BROWSER=chrome

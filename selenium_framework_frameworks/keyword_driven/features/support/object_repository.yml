@@ -1,0 +1,15 @@
+signin_text: Sign in
+username_id: '#email'
+password_id: passwd
+submit_login_id: SubmitLogin
+error_css: div.alert.alert-danger
+error_msg: Authentication failed.
+
+contact_us_text: Contact Us
+subject_heading_id: id_contact
+email_id: '#email'
+order_reference_id: id_order
+message_id: message
+submit_message_id: submitMessage
+success_css: p.alert.alert-success
+success_msg: Your message has been successfully sent to our team.

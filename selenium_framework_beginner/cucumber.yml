@@ -1,0 +1,2 @@
+default: --tag @smoke --no-source --color --format pretty --format html --out results.html
+critical: --tag @critical_regression --no-source --color --format pretty --format html --out results.html

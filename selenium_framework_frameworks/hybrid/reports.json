@@ -1,0 +1,184 @@
+[
+  {
+    "uri": "features/specifications/login.feature",
+    "id": "login-to-portal",
+    "keyword": "Feature",
+    "name": "Login to portal",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "login-to-portal;login-and-logout",
+        "keyword": "Scenario",
+        "name": "Login and logout",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.15.4/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34341
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.15.4/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23684
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I open automationpractice website",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10833732274
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I login with username \"test1010@test.com\" and password \"test1234\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2630492173
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I verify that I successfully logged in by logging out",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 432602636
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-2.15.4/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179840119
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-to-portal;login-invalid-user",
+        "keyword": "Scenario",
+        "name": "Login invalid user",
+        "description": "",
+        "line": 9,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.15.4/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31184
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.15.4/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29999
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I open automationpractice website",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/login.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2195887073
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I login with username \"test1010@test.com\" and password \"test12345\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/login.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2050191484
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I verify that I receive a failure message",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/login.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1181557588
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-2.15.4/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144117854
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
